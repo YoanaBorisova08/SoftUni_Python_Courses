@@ -1,0 +1,3 @@
+D:/Softuni C++OOP/Exam/01.StringWrapper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Softuni C++OOP/Exam/01.StringWrapper/cmake-build-debug/CMakeFiles/01_StringWrapper.dir
+D:/Softuni C++OOP/Exam/01.StringWrapper/cmake-build-debug/CMakeFiles/edit_cache.dir

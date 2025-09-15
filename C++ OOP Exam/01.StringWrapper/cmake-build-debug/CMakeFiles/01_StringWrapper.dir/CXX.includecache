@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Softuni C++OOP/Exam/01.StringWrapper/InputParser.h
+string
+-
+
+D:/Softuni C++OOP/Exam/01.StringWrapper/StringWrapper.h
+string
+-
+iostream
+-
+
+D:/Softuni C++OOP/Exam/01.StringWrapper/main.cpp
+InputParser.h
+D:/Softuni C++OOP/Exam/01.StringWrapper/InputParser.h
+StringWrapper.h
+D:/Softuni C++OOP/Exam/01.StringWrapper/StringWrapper.h
+

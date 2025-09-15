@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Softuni C++OOP/Exam/03.Diablo/Amazon.cpp
+Amazon.h
+D:/Softuni C++OOP/Exam/03.Diablo/Amazon.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Amazon.h
+Hero.h
+D:/Softuni C++OOP/Exam/03.Diablo/Hero.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Barbarian.cpp
+Barbarian.h
+D:/Softuni C++OOP/Exam/03.Diablo/Barbarian.h
+Defines.h
+D:/Softuni C++OOP/Exam/03.Diablo/Defines.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Barbarian.h
+Hero.h
+D:/Softuni C++OOP/Exam/03.Diablo/Hero.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Defines.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Hero.h
+string
+-
+array
+-
+iostream
+-
+sstream
+-
+Defines.h
+D:/Softuni C++OOP/Exam/03.Diablo/Defines.h
+Structs.h
+D:/Softuni C++OOP/Exam/03.Diablo/Structs.h
+
+D:/Softuni C++OOP/Exam/03.Diablo/Structs.h
+string
+-
+

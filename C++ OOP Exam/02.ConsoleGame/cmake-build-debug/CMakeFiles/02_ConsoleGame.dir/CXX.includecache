@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Defines.h
+
+D:/Softuni C++OOP/Exam/02.ConsoleGame/PS.h
+
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Store.cpp
+Store.h
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Store.h
+algorithm
+-
+
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Store.h
+Defines.h
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Defines.h
+iostream
+-
+vector
+-
+PS.h
+D:/Softuni C++OOP/Exam/02.ConsoleGame/PS.h
+Xbox.h
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Xbox.h
+
+D:/Softuni C++OOP/Exam/02.ConsoleGame/Xbox.h
+
