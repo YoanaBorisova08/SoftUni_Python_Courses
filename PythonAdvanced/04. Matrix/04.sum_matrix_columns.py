@@ -1,0 +1,7 @@
+rows, cols = [int(x) for x in input().split(", ")]
+matrix = [[int(num) for num in input().split()] for _ in range(rows)]
+for col in range(cols):
+    col_sum = 0
+    for row in range(rows):
+        col_sum += matrix[row][col]
+    print(col_sum)
