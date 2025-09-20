@@ -1,3 +1,0 @@
-D:/Softuni C++OOP/Exam/03.Diablo/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Softuni C++OOP/Exam/03.Diablo/cmake-build-debug/CMakeFiles/03_Diablo.dir
-D:/Softuni C++OOP/Exam/03.Diablo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

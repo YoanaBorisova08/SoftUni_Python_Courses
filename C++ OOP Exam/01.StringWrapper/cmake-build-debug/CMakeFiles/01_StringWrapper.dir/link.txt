@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\01_StringWrapper.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\01_StringWrapper.dir/objects.a @CMakeFiles\01_StringWrapper.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\01_StringWrapper.dir/objects.a -Wl,--no-whole-archive -o 01_StringWrapper.exe -Wl,--out-implib,lib01_StringWrapper.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\01_StringWrapper.dir\linklibs.rsp
