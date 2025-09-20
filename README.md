@@ -17,8 +17,8 @@ Build a portfolio of solved programming challenges
 1. [Stacks and Queues](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonAdvanced/01.StacksAndQueues)
 2. [Tuples and Sets](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonAdvanced/02.TuplesAndSets)
 3. [Excersice](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonAdvanced/03.Excercises)
+4. [Matrix](https://github.com/YoanaBorisova08/SoftUni_courses/tree/main/PythonAdvanced/04.%20Matrix)
 
 # Exam problems
-[C++ OOP 2021 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/C%2B%2B%20OOP%20Exam)
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
