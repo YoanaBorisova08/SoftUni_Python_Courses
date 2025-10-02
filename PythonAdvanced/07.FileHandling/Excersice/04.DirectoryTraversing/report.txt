@@ -1,0 +1,18 @@
+.py
+- - - 01.file_opener.py
+- - - 02.file_reader.py
+- - - 03.file_writer.py
+- - - 04.file_delete.py
+- - - 05.count_words.py
+- - - directory_traversal.py
+- - - directory_traversal_recursive.py
+- - - even_lines.py
+- - - file_manipulator.py
+- - - line_numbers.py
+- - - main.py
+.txt
+- - - nested.txt
+- - - output.txt
+- - - report.txt
+- - - text.txt
+- - - text.txt
