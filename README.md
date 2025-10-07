@@ -22,6 +22,7 @@ Build a portfolio of solved programming challenges
 6. [Error Handling](PythonAdvanced/06.ErrorHandling)
 7. [File Handling](PythonAdvanced/07.FileHandling)
 8. [Console Tic-Tac-Toe Game](https://github.com/YoanaBorisova08/SoftUni_Python_Courses/tree/main/PythonAdvanced/08.Console%20Tic-Tac-Toe)
+9. [Graffic Interface/Console "Connect Four" Game](PythonAdvanced/09.ConsoleConnectFour)
 
 # Exam problems
 
