@@ -18,6 +18,10 @@ Build a portfolio of solved programming challenges
 2. [Tuples and Sets](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonAdvanced/02.TuplesAndSets)
 3. [Excersice](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonAdvanced/03.Excercises)
 4. [Matrix](https://github.com/YoanaBorisova08/SoftUni_courses/tree/main/PythonAdvanced/04.%20Matrix)
+5. [Functions Advanced](PythonAdvanced/05.FunctionsAdvanced)
+6. [Error Handling](PythonAdvanced/06.ErrorHandling)
+7. [File Handling](PythonAdvanced/07.FileHandling)
+8. [Console Tic-Tac-Toe Game](https://github.com/YoanaBorisova08/SoftUni_Python_Courses/tree/main/PythonAdvanced/08.Console%20Tic-Tac-Toe)
 
 # Exam problems
 
