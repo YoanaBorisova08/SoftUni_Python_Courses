@@ -148,6 +148,11 @@ def create_ui(root, rows, cols, slots_to_win):
     for c, button in enumerate(buttons):
         button.grid(row=0, column=c)
 
+    tk.Button(root,
+              text="Reset",
+              bg = "pink",
+              command=lambda: reset_game(matrix, rows, cols, labels)).grid(row=rows+1, column=cols//2)
+
 def start_game():
     root = tk.Tk()
     root.title("Connect Four")
