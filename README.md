@@ -30,6 +30,7 @@ Build a portfolio of solved programming challenges
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
+
 [Python Advanced 2025 Exam](PythonAdvanced/exam)
 
 
