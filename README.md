@@ -24,7 +24,14 @@ Build a portfolio of solved programming challenges
 8. [Console Tic-Tac-Toe Game](https://github.com/YoanaBorisova08/SoftUni_Python_Courses/tree/main/PythonAdvanced/08.Console%20Tic-Tac-Toe)
 9. [Graphical user interface/Console "Connect Four" Game](PythonAdvanced/09.ConsoleConnectFour)
 10. [Modules](PythonAdvanced/lecture_modules) - [graphical user interface Shop](PythonAdvanced/lecture_modules/gui_shop)
+11. [Algorithms](PythonAdvanced/10.Algorithms)
+12. [Exam preparation](PythonAdvanced/exam_preparation)
 
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
+
+[Python Advanced 2025 Exam](PythonAdvanced/exam)
+
+
+
