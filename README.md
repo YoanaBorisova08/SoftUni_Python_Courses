@@ -27,6 +27,12 @@ Build a portfolio of solved programming challenges
 11. [Algorithms](PythonAdvanced/10.Algorithms)
 12. [Exam preparation](PythonAdvanced/exam_preparation)
 
+# Python OOP course (october-december 2025)
+1. [First Steps](PythonOOP/01_First_Steps)
+2. [Classes And Objects](PythonOOP/02_Classes_And_Objects)
+3. [Inheritence[(PythonOOP/03.Inheritence)
+4. [Encapsulation](PythonOOP/04.Encapsulation)
+
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
