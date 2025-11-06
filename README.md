@@ -30,7 +30,7 @@ Build a portfolio of solved programming challenges
 # Python OOP course (october-december 2025)
 1. [First Steps](PythonOOP/01_First_Steps)
 2. [Classes And Objects](PythonOOP/02_Classes_And_Objects)
-3. [Inheritence[(PythonOOP/03.Inheritence)
+3. [Inheritence](PythonOOP/03.Inheritence)
 4. [Encapsulation](PythonOOP/04.Encapsulation)
 
 # Exam problems
