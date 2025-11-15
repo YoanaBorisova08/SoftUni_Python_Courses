@@ -1,4 +1,3 @@
-from project.animal import Animal
 from project.caretaker import Caretaker
 from project.cheetah import Cheetah
 from project.keeper import Keeper
