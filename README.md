@@ -32,6 +32,9 @@ Build a portfolio of solved programming challenges
 2. [Classes And Objects](PythonOOP/02_Classes_And_Objects)
 3. [Inheritence](PythonOOP/03.Inheritence)
 4. [Encapsulation](PythonOOP/04.Encapsulation)
+5. [Class And Static Methods](PythonOOP/05.ClassAndStaticMethods)
+6. [Polymorphisum And Abstraction](PythonOOP/06.Polymorphisum_And_Abstraction)
+7. [SOLID](PythonOOP/07.SOLID)
 
 # Exam problems
 
