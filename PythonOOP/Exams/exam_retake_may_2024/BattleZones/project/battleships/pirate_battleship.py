@@ -9,3 +9,6 @@ class PirateBattleship(BaseBattleship):
         self.ammunition -= 10
         if self.ammunition < 0:
             self.ammunition = 0
+
+    def __str__(self):
+        return "Pirate"

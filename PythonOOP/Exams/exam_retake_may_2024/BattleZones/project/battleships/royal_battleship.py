@@ -10,4 +10,7 @@ class RoyalBattleship(BaseBattleship):
         if self.ammunition < 0:
             self.ammunition = 0
 
+    def __str__(self):
+        return "Royal"
+
 
