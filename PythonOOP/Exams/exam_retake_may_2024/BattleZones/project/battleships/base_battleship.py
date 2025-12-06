@@ -16,7 +16,7 @@ class BaseBattleship(ABC):
 
     @name.setter
     def name(self, value):
-        if not value.strip().isalpha():
+        if not value.isalpha():
             raise ValueError("Ship name must contain only letters!")
         self.__name = value
 

@@ -30,13 +30,13 @@ class BattleManager:
 
     def add_battleship(self, ship_type: str, name: str, health: int, hit_strength: int):
         if ship_type not in self.VALID_BATTLESHIPS:
-            raise Exception("{ship_type} is an invalid type of ship!")
+            raise Exception(f"{ship_type} is an invalid type of ship!")
         self.ships.append(self.VALID_BATTLESHIPS[ship_type](name, health, hit_strength))
         return f"A new {ship_type} was successfully added."
 
     @staticmethod
     def add_ship_to_zone(zone: BaseZone, ship: BaseBattleship):
-        if zone.volume == 0:
+        if zone.volume <= 0:
             return f"Zone {zone.code} does not allow more participants!"
         if ship.health <= 0:
             return f"Ship {ship.name} is considered sunk! Participation not allowed!"
