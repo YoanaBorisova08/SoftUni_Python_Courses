@@ -38,6 +38,7 @@ Build a portfolio of solved programming challenges
 8. [Iterators_And_Generators](PythonOOP/08.Iterators_And_Generators)
 9. [Decorators](PythonOOP/09.Decorators)
 10. [Past Exams](PythonOOP/Exams)
+11. [Workshop Custom List](PythonOOP/11.Workshop_CustomList)
 
 # Exam problems
 
