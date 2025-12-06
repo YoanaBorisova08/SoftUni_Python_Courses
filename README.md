@@ -35,12 +35,20 @@ Build a portfolio of solved programming challenges
 5. [Class And Static Methods](PythonOOP/05.ClassAndStaticMethods)
 6. [Polymorphisum And Abstraction](PythonOOP/06.Polymorphisum_And_Abstraction)
 7. [SOLID](PythonOOP/07.SOLID)
+8. [Iterators_And_Generators](PythonOOP/08.Iterators_And_Generators)
+9. [Decorators](PythonOOP/09.Decorators)
+10. [Past Exams](PythonOOP/Exams)
 
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
 
 [Python Advanced 2025 Exam](PythonAdvanced/exam)
+
+[Python OOP 2025 Exam](PythonOOPExam)
+
+
+
 
 
 
