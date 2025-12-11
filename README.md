@@ -40,6 +40,11 @@ Build a portfolio of solved programming challenges
 10. [Past Exams](PythonOOP/Exams)
 11. [Workshop Custom List](PythonOOP/11.Workshop_CustomList)
 
+# PostgreSQL course (january 2025)
+1. [Data types](PostgreSQL/01.DataTypes)
+2. [CRUD](PostgreSQL/02.CRUD)
+3. [Build-in functions](PostgreSQL/03.Functions)
+
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
