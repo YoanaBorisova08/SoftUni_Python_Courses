@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58b97a0-2713-4802-801d-1a0e49056b03" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../04.DataAggregation/Lab/query,sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/book_library.ZQ0V_A.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/book_library.ZQ0V_A/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/book_library.ZQ0V_A/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/book_library.ZQ0V_A/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/booking_db.JN4Rrg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/booking_db.JN4Rrg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/booking_db.JN4Rrg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/booking_db.JN4Rrg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/gamebar.4VJX9A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/gamebar.4VJX9A/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/gamebar.4VJX9A/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/hotel.tMHtBQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/hotel.tMHtBQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/hotel.tMHtBQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/hotel.tMHtBQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/hotel.tMHtBQ/schema/public.abK9xQ.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queries/Query_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Query_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03.Functions/Exercise/query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../03.Functions/Exercise/query.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

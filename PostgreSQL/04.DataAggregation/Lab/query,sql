@@ -1,0 +1,85 @@
+//1
+SELECT
+    department_id,
+    count(department_id) AS employee_count
+FROM
+    employees
+GROUP BY
+    department_id
+ORDER BY
+    department_id;
+
+//2
+    SELECT
+    department_id,
+    count(salary) AS employee_count
+FROM
+    employees
+GROUP BY
+    department_id
+ORDER BY
+    department_id;
+
+//3
+ SELECT
+    department_id,
+    sum(salary) AS total_salaries
+FROM
+    employees
+GROUP BY
+    department_id
+ORDER BY
+    department_id;
+
+ //4
+ SELECT
+    department_id,
+    max(salary) AS max_salary
+FROM
+    employees
+GROUP BY
+    department_id
+ORDER BY
+    department_id;
+
+ //5
+ SELECT
+    department_id,
+    min(salary)
+FROM employees
+GROUP BY department_id
+ORDER BY department_id;
+
+//6
+SELECT
+    department_id,
+    avg(salary) AS avg_salary
+FROM employees
+GROUP BY department_id
+ORDER BY department_id;
+
+//7
+SELECT
+    department_id,
+    sum(salary) AS "Total Salary"
+FROM employees
+GROUP BY department_id
+HAVING
+    sum(salary) <=4200
+ORDER BY department_id;
+
+//8
+SELECT
+    id,
+    first_name,
+    last_name,
+    ROUND(salary, 2),
+    department_id,
+    CASE department_id
+        WHEN 1 THEN  'Management'
+        WHEN 2 THEN 'Kitchen Staff'
+        WHEN 3 THEN 'Service Staff'
+        ELSE 'Other'
+    END AS department_name
+FROM employees
+ORDER BY id;

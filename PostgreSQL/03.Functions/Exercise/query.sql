@@ -265,3 +265,7 @@ WHERE
     apartment_id = 90;
 
 //27
+SELECT
+    AVG(multiplication) AS average_value
+FROM
+    bookings_calculation;
