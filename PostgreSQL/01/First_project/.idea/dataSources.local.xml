@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="DB-253.28294.259">
-    <data-source name="postgres@localhost" uuid="e685858d-3637-461c-8ca9-bf1fbf37d5d1">
+    <data-source name="postgres@localhost" uuid="84700b24-2c71-4841-bcb6-d99a6c91cf9e">
       <database-info product="PostgreSQL" version="18.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-version="18.1" exact-driver-version="42.7">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -11,12 +11,8 @@
       <schema-mapping>
         <introspection-scope>
           <node negative="1">
-            <node kind="database" qname="@">
-              <node kind="schema" qname="@" />
-            </node>
-            <node kind="database">
-              <name qname="minions_db" />
-              <name qname="gamebar" />
+            <node kind="database" negative="1" />
+            <node kind="database" qname="book_library">
               <node kind="schema" negative="1" />
             </node>
           </node>
