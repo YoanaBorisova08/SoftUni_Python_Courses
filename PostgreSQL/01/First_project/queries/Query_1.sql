@@ -1,6 +1,4 @@
 SELECT
-    title
+    AVG(multiplication) AS average_value
 FROM
-    books
-WHERE title like '%Harry Potter%'
-ORDER BY id;
+    bookings_calculation;
