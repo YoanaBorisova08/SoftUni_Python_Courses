@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58b97a0-2713-4802-801d-1a0e49056b03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/queries/Query_2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../04.DataAggregation/Exercise/query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../05.TableRelations/Exercise/query.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/restaurant.PUtalg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/restaurant.PUtalg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/restaurant.PUtalg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/restaurant.PUtalg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/softuni_managment_db.GF87zw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/softuni_managment_db.GF87zw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/softuni_managment_db.GF87zw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/softuni_managment_db.GF87zw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/softuni_managment_db.GF87zw/schema/public.abK9xQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queries/Query_1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Query_1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries/Query_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Query_2.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PostgreSQL"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PostgreSQL&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a58b97a0-2713-4802-801d-1a0e49056b03" name="Changes" comment="" />

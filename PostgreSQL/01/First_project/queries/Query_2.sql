@@ -1,7 +1,10 @@
 SELECT
-    *
-FROM departments
-JOIN employees
-ON
-    employees.department_id = departments.id
-;
+    COUNT(*)
+FROM
+    countries
+LEFT JOIN
+        countries_rivers
+USING
+    (country_code)
+WHERE
+    river_id IS NULL;
