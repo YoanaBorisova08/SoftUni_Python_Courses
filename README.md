@@ -44,6 +44,10 @@ Build a portfolio of solved programming challenges
 1. [Data types](PostgreSQL/01.DataTypes)
 2. [CRUD](PostgreSQL/02.CRUD)
 3. [Build-in functions](PostgreSQL/03.Functions)
+4. [Data Aggregation](PostgreSQL/04.DataAggregation)
+5. [Table Relations](PostgreSQL/05.TableRelations)
+6. [Subquerries and Join](PostgreSQL/06.SubquerriesAndJoin)
+7. [Database programmability and Transactions](PostgreSQL/07.DatabaseProgrammabilityAndTransactions)
 
 # Exam problems
 
