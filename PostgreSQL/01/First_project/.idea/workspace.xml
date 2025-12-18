@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58b97a0-2713-4802-801d-1a0e49056b03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../06.SubquerriesAndJoin/Exercise/query.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../07.DatabaseProgrammabilityAndTransactions/query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07.DatabaseProgrammabilityAndTransactions/Exercise/query.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07.DatabaseProgrammabilityAndTransactions/Lab/query.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/table_relations_geography_db.-gD40g.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/table_relations_geography_db.-gD40g/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/table_relations_geography_db.-gD40g/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/table_relations_geography_db.-gD40g/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queries/Query_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Query_2.sql" afterDir="false" />
     </list>

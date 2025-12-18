@@ -1,39 +1,35 @@
-CREATE OR REPLACE PROCEDURE sp_transfer_money(
-    IN sender_id INT,
-    IN receiver_id int,
-    IN transfer_amount INT,
-    OUT status varchar(50)
-) AS
+CREATE TABLE deleted_employees(
+employee_id SERIAL primary key,
+first_name varchar(20),
+last_name varchar(20),
+middle_name varchar(20),
+job_title varchar(50),
+department_id int,
+salary numeric(19,4)
+);
+
+
+CREATE OR REPLACE FUNCTION backup_fired_employees()
+RETURNS TRIGGER
+AS
 $$
-    DECLARE
-        sender_amount int;
-        receiver_amount int;
-        temp_value int;
     BEGIN
-        SELECT bgn FROM bank WHERE id = sender_id INTO sender_amount;
-        IF sender_amount < transfer_amount THEN
-            status:= 'The sender does not have enough money';
-            RETURN;
-        END IF;
-        SELECT bgn FROM BANK WHERE id= receiver_id INTO receiver_amount;
-        UPDATE bank SET bgn = bgn + transfer_amount WHERE id = receiver_id;
-        UPDATE bank SET bgn = bgn - transfer_amount WHERE id = sender_id;
-        SELECT bgn FROM bank WHERE id = sender_id INTO temp_value;
-        IF sender_amount - transfer_amount <> temp_value THEN
-            status := 'Error when transfer from sender';
-            ROLLBACK;
-            RETURN;
-        END IF;
-        SELECT bgn FROM bank WHERE id = receiver_id INTO temp_value;
-        IF receiver_amount + transfer_amount <> temp_value THEN
-            status := 'Error when transfer to receiver';
-            ROLLBACK;
-            RETURN;
-        END IF;
-        status := 'Success';
-        COMMIT;
+        INSERT INTO deleted_employees
+        VALUES (
+                   old.first_name,
+                   old.last_name,
+                   old.middle_name,
+                   old.job_title,
+                   old.department_id,
+                   old.salary
+        );
+        RETURN old;
     END
 $$
-LANGUAGE plpgsql;
+LANGUAGE plpgsql
+;
 
+CREATE OR REPLACE TRIGGER trigger_backup_fired_employees
+AFTER DELETE ON employees
+FOR EACH ROW EXECUTE PROCEDURE backup_fired_employees();
 
