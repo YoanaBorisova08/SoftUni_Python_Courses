@@ -1,35 +1,16 @@
-CREATE TABLE deleted_employees(
-employee_id SERIAL primary key,
-first_name varchar(20),
-last_name varchar(20),
-middle_name varchar(20),
-job_title varchar(50),
-department_id int,
-salary numeric(19,4)
-);
-
-
-CREATE OR REPLACE FUNCTION backup_fired_employees()
-RETURNS TRIGGER
+CREATE OR REPLACE PROCEDURE sp_animals_with_owners_or_not
+(IN animal_name VARCHAR(30),
+OUT result VARCHAR)
 AS
 $$
     BEGIN
-        INSERT INTO deleted_employees
-        VALUES (
-                   old.first_name,
-                   old.last_name,
-                   old.middle_name,
-                   old.job_title,
-                   old.department_id,
-                   old.salary
-        );
-        RETURN old;
+        SELECT
+            COALESCE(o.name, 'For adoption'::VARCHAR)
+        FROM owners AS o
+        RIGHT JOIN animals AS a ON o.id=a.owner_id
+        WHERE a.name = animal_name  INTO result;
     END
 $$
-LANGUAGE plpgsql
-;
+LANGUAGE plpgsql;
 
-CREATE OR REPLACE TRIGGER trigger_backup_fired_employees
-AFTER DELETE ON employees
-FOR EACH ROW EXECUTE PROCEDURE backup_fired_employees();
-
+CALL sp_animals_with_owners_or_not('Hippo', '')
