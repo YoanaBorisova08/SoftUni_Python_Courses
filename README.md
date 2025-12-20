@@ -40,7 +40,7 @@ Build a portfolio of solved programming challenges
 10. [Past Exams](PythonOOP/Exams)
 11. [Workshop Custom List](PythonOOP/11.Workshop_CustomList)
 
-# PostgreSQL course (january 2025)
+# PostgreSQL course (september 2025)
 1. [Data types](PostgreSQL/01.DataTypes)
 2. [CRUD](PostgreSQL/02.CRUD)
 3. [Build-in functions](PostgreSQL/03.Functions)
@@ -48,6 +48,16 @@ Build a portfolio of solved programming challenges
 5. [Table Relations](PostgreSQL/05.TableRelations)
 6. [Subquerries and Join](PostgreSQL/06.SubquerriesAndJoin)
 7. [Database programmability and Transactions](PostgreSQL/07.DatabaseProgrammabilityAndTransactions)
+8. [Exam preparation](PostgreSQL/08.ExamPreparation1)
+9. [Workshop Superbase](PostgreSQL/09.WorkshopSuperbase)
+
+# PythonORM course(october-december 2025)
+1. Django Models Basics
+   [Lab](PythonORM/01.DjangoModelsBasic)
+   [Exercise](PythonORM/DjangoModelsBasicsExercise)
+2. [Migrations and Django Admin]()
+   [Lab]()
+   [Exercise]()
 
 # Exam problems
 
