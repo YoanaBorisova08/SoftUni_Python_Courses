@@ -53,10 +53,14 @@ Build a portfolio of solved programming challenges
 
 # PythonORM course(october-december 2025)
 1. Django Models Basics
+
    [Lab](PythonORM/01.DjangoModelsBasic)
+   
    [Exercise](PythonORM/DjangoModelsBasicsExercise)
-2. [Migrations and Django Admin]()
+2. Migrations and Django Admin
+ 
    [Lab]()
+   
    [Exercise]()
 
 # Exam problems
