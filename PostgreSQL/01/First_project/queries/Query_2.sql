@@ -1,1 +1,2 @@
+CREATE DATABASE django_models_basics_ex_db
 

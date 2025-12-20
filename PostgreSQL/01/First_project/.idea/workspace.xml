@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a58b97a0-2713-4802-801d-1a0e49056b03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../PythonORM/01.DjangoModelsBasic/pack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/84700b24-2c71-4841-bcb6-d99a6c91cf9e/storage_v2/_src_/database/test_db.Sws3qw/schema/public.abK9xQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queries/Query_2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/queries/Query_2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../PythonORM/DjangoModelsBasicsExercise/orm_skeleton/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../PythonORM/DjangoModelsBasicsExercise/orm_skeleton/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
