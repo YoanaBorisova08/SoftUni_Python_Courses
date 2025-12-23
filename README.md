@@ -58,10 +58,8 @@ Build a portfolio of solved programming challenges
    
    [Exercise](PythonORM/DjangoModelsBasicsExercise)
 2. Migrations and Django Admin
- 
-   [Lab]()
    
-   [Exercise]()
+   [Exercise](PythonORM/MigrationsAndDjangoAdminExercise)
 
 # Exam problems
 
