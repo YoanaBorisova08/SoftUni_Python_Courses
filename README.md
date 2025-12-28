@@ -60,6 +60,9 @@ Build a portfolio of solved programming challenges
 2. Migrations and Django Admin
    
    [Exercise](PythonORM/MigrationsAndDjangoAdminExercise)
+3. Data Operations
+   
+   [Exercise](PythonORM/DataOperationExercise)
 
 # Exam problems
 
