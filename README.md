@@ -63,6 +63,9 @@ Build a portfolio of solved programming challenges
 3. Data Operations
    
    [Exercise](PythonORM/DataOperationExercise)
+4. Working with Queries
+
+   [Exercise](PythonORM/WorkingWithQueries)
 
 # Exam problems
 
