@@ -66,6 +66,9 @@ Build a portfolio of solved programming challenges
 4. Working with Queries
 
    [Exercise](PythonORM/WorkingWithQueries)
+5. Django Models Relations
+
+   [Exercise](PythonORM/DjangoModelsRelations)
 
 # Exam problems
 
