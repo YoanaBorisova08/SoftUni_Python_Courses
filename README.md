@@ -70,6 +70,10 @@ Build a portfolio of solved programming challenges
 
    [Exercise](PythonORM/DjangoModelsRelations)
 
+6. Models Inheritance And Customization
+
+   [Exercise](PythonORM/ModelsInheritanceAndCustomization)
+
 # Exam problems
 
 [Python Fundamentals 2025 Exam](https://github.com/YoanaBorisova08/SoftUni-Courses/tree/main/PythonFundamentalsExam)
