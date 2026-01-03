@@ -73,6 +73,12 @@ Build a portfolio of solved programming challenges
 6. Models Inheritance And Customization
 
    [Exercise](PythonORM/ModelsInheritanceAndCustomization)
+7. Advanced Django Model Techniques
+
+   [Exercise](PythonORM/AdvancedDjangoModelTechniques)
+8. Advanced Queries in Django
+
+   [Exercise](PythonORM/AdvancedQueries)
 
 # Exam problems
 
