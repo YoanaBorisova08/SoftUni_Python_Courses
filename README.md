@@ -79,6 +79,13 @@ Build a portfolio of solved programming challenges
 8. Advanced Queries in Django
 
    [Exercise](PythonORM/AdvancedQueries)
+9. SQL Alchemy
+
+   [Lab](PythonORM/SQLAlchemy)
+   
+   [Exercise](PythonORM/SQLAlchemyEx)
+10. [Exam Preparation](PythonORM/ExamPreparation)
+    
 
 # Exam problems
 
