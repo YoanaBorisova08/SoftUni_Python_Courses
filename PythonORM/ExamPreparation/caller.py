@@ -3,6 +3,7 @@ from decimal import Decimal
 import random
 
 import django
+from django.db.models import Q, Count, F
 
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
@@ -81,4 +82,61 @@ def populate_db():
         order.products.set(chosen_products)
 
 def get_profiles(search_string=None):
-    
+    if search_string is None:
+        return ''
+    searched_profiles = Profile.objects.filter(Q(full_name__icontains=search_string)
+                           | Q(email__icontains=search_string)
+                           | Q(phone_number__icontains=search_string)).prefetch_related('orders_per_user').order_by('full_name')
+    if not searched_profiles.exists():
+        return ''
+
+    return '\n'.join(f"Profile: {p.full_name}, email: {p.email}, phone number: {p.phone_number}, orders: {p.num_of_orders}" for p in searched_profiles.annotate(num_of_orders=Count('orders_per_user')))
+
+
+def get_loyal_profiles():
+    profiles = Profile.objects.get_regular_customers()
+    if not profiles:
+        return ''
+    return '\n'.join(f"Profile: {p.full_name}, orders: {p.count_orders}" for p in profiles)
+
+def get_last_sold_products():
+    last_order = Order.objects.order_by('-creation_date').first()
+    if not last_order:
+        return ''
+    products = last_order.products.order_by('name')
+    if not products:
+        return ''
+    return f"Last sold products: {', '.join(p.name for p in products)}"
+
+def get_top_products():
+    top_products = Product.objects.annotate(num_of_orders=Count('orders')).order_by('-num_of_orders', 'name')[:5]
+    if not top_products.exists():
+        return ''
+    lines = "\n".join(
+        f"{p.name}, sold {p.num_of_orders} times"
+        for p in top_products
+    )
+
+    return f"Top products:\n{lines}"
+
+def apply_discounts():
+    orders_with_discount = Order.objects.annotate(product_count=Count('products')).filter(product_count__gt=2, is_completed=False).update(total_price=F('total_price')*1.1)
+    return f"Discount applied to {orders_with_discount} orders."
+
+def complete_order():
+    first_not_completed_order = Order.objects.filter(is_completed=False).order_by('-creation_date').first()
+    if not first_not_completed_order:
+        return ''
+    first_not_completed_order.is_completed=True
+    first_not_completed_order.save()
+    products = list(first_not_completed_order.products.all())
+    for p in products:
+        p.in_stock-=1
+        if p.in_stock==0:
+            p.is_available=False
+    Product.objects.bulk_update(
+        products,
+        ['in_stock', 'is_available']
+    )
+
+    return "Order has been completed!"

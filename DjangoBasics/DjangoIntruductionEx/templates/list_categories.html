@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO App</title>
+</head>
+<body>
+<nav>
+    <a href="{% url 'dashboard' %}">Home</a>
+    <a href="{% url 'list-categories' %}">Categories</a>
+</nav>
+  {% for c in categories %}
+        <li>
+            <h2>{{ c.name }}</h2>
+            <p>{{ c.description }}</p>
+            <p>{{ c.created_at }}</p>
+        </li>
+    {% empty %}
+        <h1>No categories yet.</h1>
+    {% endfor %}
+</body>
+</html>
